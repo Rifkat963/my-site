@@ -53,3 +53,8 @@ header h1 {
 .карточка a:hover {
   background-color: #c73652;
 }
+header img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
