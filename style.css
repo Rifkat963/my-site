@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0f0f0f;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2em;
+  color: #e94560;
+}
+
+.товары {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.карточка {
+  background-color: #1a1a2e;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.цена {
+  color: #e94560;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.карточка a {
+  display: block;
+  margin-top: 15px;
+  background-color: #e94560;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.карточка a:hover {
+  background-color: #c73652;
+}
